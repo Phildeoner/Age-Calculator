@@ -10,3 +10,5 @@ function calculateAge() {
   ageResult.textContent = `You are ${age} Years Old!`;
   return age;
 }
+
+btn.addEventListener('click', calculateAge);
