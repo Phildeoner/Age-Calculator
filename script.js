@@ -8,6 +8,10 @@ function calculateAge() {
   let birthYear = secondInput.value;
   let age = currentYear - birthYear;
   ageResult.textContent = `You are ${age} Years Old!`;
+  setTimeout(() => {
+    ageResult.textContent = '';
+    resetInput();
+  }, 5000);
   return age;
 }
 
