@@ -12,3 +12,8 @@ function calculateAge() {
 }
 
 btn.addEventListener('click', calculateAge);
+
+function resetInput() {
+  firstInput.value = '';
+  secondInput.value = '';
+};
